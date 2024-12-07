@@ -1,0 +1,13 @@
+// import mult, {weekDays, Age, msg, adda} from "./ExportJavaScript.JS";
+// console.log(weekDays);
+// console.log(Age);
+// msg("I Love You");
+// adda(3, 29);
+// mult(45, 98);
+import mult from "./ExportJavaScript.JS";
+import * as prashanth from "./ExportJavaScript.JS";
+console.log(prashanth.weekDays);
+console.log(prashanth.Age);
+prashanth.msg("Will you marry me?");
+prashanth.adda(4, 29);
+mult(22, 59);
